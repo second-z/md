@@ -1,0 +1,59 @@
+/* reset.css */
+body {
+  /* 清除margin四周 */
+  margin: 0;
+  /* 设置默认字体大小与字体 */
+  font: 14px '微软雅黑';
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+dl,
+dd {
+  /* 清除margin-top margin-bottom */
+  margin: 0;
+}
+ul,
+ol {
+  /* 去除修饰小圆点 */
+  list-style: none;
+  /* 清除margin-top margin-bottom */
+  margin: 0;
+  /* 清除padding-left */
+  padding: 0;
+}
+strong,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  /* 清除加粗 */
+  font-weight: normal;
+}
+em,
+i,
+cite {
+  /* 清除默认倾斜 */
+  font-style: normal;
+}
+mark {
+  /* 清除默认颜色yellow */
+  background: none;
+}
+a {
+  /* 去除下滑线 */
+  text-decoration: none;
+  /* 更改颜色 */
+  color: black;
+}
+img {
+  /* 顶部对齐 */
+  vertical-align: top;
+  /* IE会有边框 */
+  border: none;
+}
